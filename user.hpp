@@ -1,16 +1,21 @@
 // Carolyn Henry
 // user.hpp
 
-#ifndef USER.HPP
-#define USER.HPP
+#ifndef USER_HPP
+#define USER_HPP
 
-class user{
+#include <string>
+
+using namespace std;
+
+class User{
 
    private:
 	string LastName;
 	string Password;
 
    public:
+	User();
 	string GetLastName();
 	string GetPassword();
 	void SetLastName(string LastName);
